@@ -632,6 +632,8 @@ const submit = async () => {
 
       const updatedStudyData = {
         ...latestStudy,
+        title: localDraft.testTitle,
+        description: localDraft.testDescription,
         testTitle: localDraft.testTitle,
         testDescription: localDraft.testDescription,
         testType: localDraft.testType,
